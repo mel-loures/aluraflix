@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catálogo de Vídeos</title>
+  <meta name="description" content="Um catálogo de vídeos simples feito apenas com HTML e CSS." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>🎬 Catálogo de Vídeos</h1>
+      <p class="subtitle">Exemplo de página estática (somente HTML + CSS)</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section aria-labelledby="destaques">
+      <h2 id="destaques">Destaques</h2>
+      <ul class="video-grid" role="list">
+
+        <!-- Card de vídeo -->
+        <li class="video-card">
+          <a class="card" href="https://www.youtube.com/watch?v=pQN-pnXPaVg" target="_blank" rel="noopener noreferrer">
+            <figure class="thumb">
+              <img
+                src="https://img.youtube.com/vi/pQN-pnXPaVg/hqdefault.jpg"
+                alt="Miniatura do vídeo: HTML Full Course"
+                width="480" height="270" loading="lazy" />
+              <figcaption class="duration">2:02:00</figcaption>
+            </figure>
+            <div class="meta">
+              <h3 class="title">Curso Completo de HTML</h3>
+              <p class="channel">freeCodeCamp.org</p>
+              <p class="tags">#HTML #Web</p>
+            </div>
+          </a>
+        </li>
+
+        <!-- Outro card -->
+        <li class="video-card">
+          <a class="card" href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank" rel="noopener noreferrer">
+            <figure class="thumb">
+              <img
+                src="https://img.youtube.com/vi/yfoY53QXEnI/hqdefault.jpg"
+                alt="Miniatura do vídeo: CSS Crash Course"
+                width="480" height="270" loading="lazy" />
+              <figcaption class="duration">1:25:00</figcaption>
+            </figure>
+            <div class="meta">
+              <h3 class="title">CSS do Zero (Crash Course)</h3>
+              <p class="channel">Traversy Media</p>
+              <p class="tags">#CSS #Layout</p>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Feito com ❤️ usando apenas HTML + CSS. <a href="LICENSE">MIT License</a></p>
+    </div>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catálogo de Vídeos</title>
+  <meta name="description" content="Um catálogo de vídeos simples feito apenas com HTML e CSS." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>🎬 Catálogo de Vídeos</h1>
+      <p class="subtitle">Exemplo de página estática (somente HTML + CSS)</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section aria-labelledby="destaques">
+      <h2 id="destaques">Destaques</h2>
+      <ul class="video-grid" role="list">
+
+        <!-- Card de vídeo -->
+        <li class="video-card">
+          <a class="card" href="https://www.youtube.com/watch?v=pQN-pnXPaVg" target="_blank" rel="noopener noreferrer">
+            <figure class="thumb">
+              <img
+                src="https://img.youtube.com/vi/pQN-pnXPaVg/hqdefault.jpg"
+                alt="Miniatura do vídeo: HTML Full Course"
+                width="480" height="270" loading="lazy" />
+              <figcaption class="duration">2:02:00</figcaption>
+            </figure>
+            <div class="meta">
+              <h3 class="title">Curso Completo de HTML</h3>
+              <p class="channel">freeCodeCamp.org</p>
+              <p class="tags">#HTML #Web</p>
+            </div>
+          </a>
+        </li>
+
+        <!-- Outro card -->
+        <li class="video-card">
+          <a class="card" href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank" rel="noopener noreferrer">
+            <figure class="thumb">
+              <img
+                src="https://img.youtube.com/vi/yfoY53QXEnI/hqdefault.jpg"
+                alt="Miniatura do vídeo: CSS Crash Course"
+                width="480" height="270" loading="lazy" />
+              <figcaption class="duration">1:25:00</figcaption>
+            </figure>
+            <div class="meta">
+              <h3 class="title">CSS do Zero (Crash Course)</h3>
+              <p class="channel">Traversy Media</p>
+              <p class="tags">#CSS #Layout</p>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Feito com ❤️ usando apenas HTML + CSS. <a href="LICENSE">MIT License</a></p>
+    </div>
+  </footer>
+</body>
+</html>
